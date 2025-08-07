@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login / Registration</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <div class="container">
+    <div class="tabs">
+      <input type="radio" id="login" name="tab" checked>
+      <input type="radio" id="register" name="tab">
+
+      <div class="tab-labels">
+        <label for="login">Login</label>
+        <label for="register">Register</label>
+      </div>
+
+      <div class="forms">
+
+        <!-- Login Form -->
+        <div class="form login-form">
+          <h2>Login</h2>
+          <form>
+            <input type="email" placeholder="Email" required>
+            <input type="password" placeholder="Password" required>
+            <button type="submit">Login</button>
+          </form>
+        </div>
+        <!-- Register Form -->
+        <div class="form register-form">
+          <h2>Register</h2>
+          <form>
+            <input type="text" placeholder="Username" required>
+            <input type="email" placeholder="Email" required>
+            <input type="password" placeholder="Password" required>
+            <button type="submit">Register</button>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
